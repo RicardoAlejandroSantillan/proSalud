@@ -1,0 +1,89 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\PerezRA\\source\\repos\\proSalud\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{01A70A78-7217-482E-98D1-8F7F6DE633DF}|proSalud\\proSalud.csproj|c:\\users\\perezra\\source\\repos\\prosalud\\prosalud\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{01A70A78-7217-482E-98D1-8F7F6DE633DF}|proSalud\\proSalud.csproj|solutionrelative:prosalud\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01A70A78-7217-482E-98D1-8F7F6DE633DF}|proSalud\\proSalud.csproj|c:\\users\\perezra\\source\\repos\\prosalud\\prosalud\\wwwroot\\custom.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{01A70A78-7217-482E-98D1-8F7F6DE633DF}|proSalud\\proSalud.csproj|solutionrelative:prosalud\\wwwroot\\custom.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01A70A78-7217-482E-98D1-8F7F6DE633DF}|proSalud\\proSalud.csproj|c:\\users\\perezra\\source\\repos\\prosalud\\prosalud\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01A70A78-7217-482E-98D1-8F7F6DE633DF}|proSalud\\proSalud.csproj|solutionrelative:prosalud\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 336,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "custom.css",
+              "DocumentMoniker": "C:\\Users\\PerezRA\\source\\repos\\proSalud\\proSalud\\wwwroot\\custom.css",
+              "RelativeDocumentMoniker": "proSalud\\wwwroot\\custom.css",
+              "ToolTip": "C:\\Users\\PerezRA\\source\\repos\\proSalud\\proSalud\\wwwroot\\custom.css",
+              "RelativeToolTip": "proSalud\\wwwroot\\custom.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-10-22T18:04:40.936Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\PerezRA\\source\\repos\\proSalud\\proSalud\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "proSalud\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\PerezRA\\source\\repos\\proSalud\\proSalud\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "proSalud\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAIgAAAAAAAAAAAAAAJ4AAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-22T16:12:46.828Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\PerezRA\\source\\repos\\proSalud\\proSalud\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "proSalud\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\PerezRA\\source\\repos\\proSalud\\proSalud\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "proSalud\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T16:12:07.691Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 64,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

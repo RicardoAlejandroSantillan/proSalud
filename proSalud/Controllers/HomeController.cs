@@ -1,0 +1,35 @@
+using Microsoft.AspNetCore.Mvc;
+using proSalud.Models;
+using System.Diagnostics;
+
+namespace proSalud.Controllers
+{
+    public class HomeController : Controller
+    {
+        private readonly ILogger<HomeController> _logger;
+
+        public HomeController(ILogger<HomeController> logger)
+        {
+            _logger = logger;
+        }
+
+        public IActionResult Index()
+        {
+            ViewBag.Name = "ProSalud";
+            ViewBag.Edad1 = 22;
+            ViewBag.Edad2 = 15;
+            return View();
+        }
+
+        public IActionResult Privacy()
+        {
+            return View();
+        }
+
+        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
+        public IActionResult Error()
+        {
+            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+        }
+    }
+}
