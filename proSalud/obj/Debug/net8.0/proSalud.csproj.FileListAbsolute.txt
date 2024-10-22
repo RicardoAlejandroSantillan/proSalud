@@ -149,3 +149,4 @@ C:\Users\PerezRA\source\repos\proSalud\proSalud\obj\Debug\net8.0\refint\proSalud
 C:\Users\PerezRA\source\repos\proSalud\proSalud\obj\Debug\net8.0\proSalud.pdb
 C:\Users\PerezRA\source\repos\proSalud\proSalud\obj\Debug\net8.0\proSalud.genruntimeconfig.cache
 C:\Users\PerezRA\source\repos\proSalud\proSalud\obj\Debug\net8.0\ref\proSalud.dll
+C:\Users\PerezRA\source\repos\proSalud\proSalud\obj\Debug\net8.0\proSalud.sourcelink.json

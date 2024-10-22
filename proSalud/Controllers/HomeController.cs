@@ -15,9 +15,6 @@ namespace proSalud.Controllers
 
         public IActionResult Index()
         {
-            ViewBag.Name = "ProSalud";
-            ViewBag.Edad1 = 22;
-            ViewBag.Edad2 = 15;
             return View();
         }
 
@@ -30,6 +27,31 @@ namespace proSalud.Controllers
         public IActionResult Error()
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+        }
+
+        public PartialViewResult Appointments()
+        {
+            return PartialView("_Appointments");
+        }
+
+        public PartialViewResult PatientInfo()
+        {
+            return PartialView("_PatientInfo");
+        }
+
+        public PartialViewResult Billing()
+        {
+            return PartialView("_Billing");
+        }
+
+        public PartialViewResult MedicalServices()
+        {
+            return PartialView("_MedicalServices");
+        }
+
+        public PartialViewResult StatisticsMembership()
+        {
+            return PartialView("_StatisticsMembership");
         }
     }
 }

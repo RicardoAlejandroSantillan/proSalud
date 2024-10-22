@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "gVdkF4tKh5/Rfc6+wYuTUsVlboUAbFmjxwFXLOXs4Lk=",
+  "Hash": "Zp8hIyXPO687Pvmi1ckhvCBemQjbPzo1+A3dMPTFux4=",
   "Source": "proSalud",
   "BasePath": "_content/proSalud",
   "Mode": "Default",
@@ -1195,6 +1195,25 @@
       "OriginalItemSpec": "C:\\Users\\PerezRA\\source\\repos\\proSalud\\proSalud\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\proSalud.bundle.scp.css"
     },
     {
+      "Identity": "C:\\Users\\PerezRA\\source\\repos\\proSalud\\proSalud\\wwwroot\\css\\custom.css",
+      "SourceId": "proSalud",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\PerezRA\\source\\repos\\proSalud\\proSalud\\wwwroot\\",
+      "BasePath": "_content/proSalud",
+      "RelativePath": "css/custom.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\custom.css"
+    },
+    {
       "Identity": "C:\\Users\\PerezRA\\source\\repos\\proSalud\\proSalud\\wwwroot\\css\\site.css",
       "SourceId": "proSalud",
       "SourceType": "Discovered",
@@ -1212,25 +1231,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
-    },
-    {
-      "Identity": "C:\\Users\\PerezRA\\source\\repos\\proSalud\\proSalud\\wwwroot\\custom.css",
-      "SourceId": "proSalud",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\PerezRA\\source\\repos\\proSalud\\proSalud\\wwwroot\\",
-      "BasePath": "_content/proSalud",
-      "RelativePath": "custom.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\custom.css"
     },
     {
       "Identity": "C:\\Users\\PerezRA\\source\\repos\\proSalud\\proSalud\\wwwroot\\favicon.ico",

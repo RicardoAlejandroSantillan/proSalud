@@ -5,12 +5,12 @@
       "PackagePath": "staticwebassets\\proSalud.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\PerezRA\\source\\repos\\proSalud\\proSalud\\wwwroot\\css\\site.css",
-      "PackagePath": "staticwebassets\\css\\site.css"
+      "Id": "C:\\Users\\PerezRA\\source\\repos\\proSalud\\proSalud\\wwwroot\\css\\custom.css",
+      "PackagePath": "staticwebassets\\css\\custom.css"
     },
     {
-      "Id": "C:\\Users\\PerezRA\\source\\repos\\proSalud\\proSalud\\wwwroot\\custom.css",
-      "PackagePath": "staticwebassets\\custom.css"
+      "Id": "C:\\Users\\PerezRA\\source\\repos\\proSalud\\proSalud\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
       "Id": "C:\\Users\\PerezRA\\source\\repos\\proSalud\\proSalud\\wwwroot\\favicon.ico",
