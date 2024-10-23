@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("proSalud")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9cd9bc10bc4da65464b707bcb1ea57337cde45d2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a2f849296eff92448194423a1278d725e66d497e")]
 [assembly: System.Reflection.AssemblyProductAttribute("proSalud")]
 [assembly: System.Reflection.AssemblyTitleAttribute("proSalud")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

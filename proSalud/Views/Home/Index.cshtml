@@ -5,10 +5,51 @@
 <div class="text-center">
     <h1 class="display-2 fw-normal">ProSalud</h1>
 
-    <button id="btnPatients" class="buttonArea">Patients</button>
-    <button id="btnDoctors" class="buttonArea">Doctors</button>
-    <button id="btnAppointments" class="buttonArea">Appointments</button>
-    <button id="btnSpecialities" class="buttonArea">Specialities</button>
+    <button id="btnPatients" class="buttonArea" onclick="clckSpecialities()">Specialities</button>
+    <button id="btnDoctors" class="buttonAppointments" onclick="clckAppointments()">Appointments</button>
+    <button id="btnAppointments" class="buttonDoctors" onclick="clckDoctors()">Doctors</button>
+    <button id="btnSpecialities" class="buttonPatients" onclick="clckPatients()">Patients</button>
+
 
     <div id="content"></div>
+
+    
+    @Html.Partial("appointmentsP")
+    @* <script>
+        function clckSpecialities() {
+            document.getElementById("content").innerHTML = @Html.Partial("testP");
+
+        }
+
+        function clckAppointments() {
+        }
+
+        function clckDoctors() {
+        }
+
+        function clckPatients() {
+        }
+    </script> *@
+
+   @*  <script>
+        function clckSpecialities() {
+            document.getElementById("content").innerHTML = "<h2>Specialities</h2>";
+            // document.getElementById("content").innerHTML = <partial name="_SpecialitiesPartial" />;
+        }
+
+        function clckAppointments() {
+            document.getElementById("content").innerHTML = "<h2>Appointments</h2>";
+            document.getElementById("content").innerHTML = <partial name="_AppointmentsPartial" />;
+        }
+
+        function clckDoctors() {
+            document.getElementById("content").innerHTML = "<h2>Doctors</h2>";
+            document.getElementById("content").innerHTML = <partial name="_DoctorsPartial" />;
+        }
+
+        function clckPatients() {
+            document.getElementById("content").innerHTML = "<h2>Patients</h2>";
+            document.getElementById("content").innerHTML = <partial name="_PatientsPartial" />;
+        }
+    </script> *@
 </div>

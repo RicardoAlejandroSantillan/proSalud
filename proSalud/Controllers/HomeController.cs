@@ -28,30 +28,9 @@ namespace proSalud.Controllers
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
-
-        public PartialViewResult Appointments()
+        public IActionResult testP()
         {
-            return PartialView("_Appointments");
-        }
-
-        public PartialViewResult PatientInfo()
-        {
-            return PartialView("_PatientInfo");
-        }
-
-        public PartialViewResult Billing()
-        {
-            return PartialView("_Billing");
-        }
-
-        public PartialViewResult MedicalServices()
-        {
-            return PartialView("_MedicalServices");
-        }
-
-        public PartialViewResult StatisticsMembership()
-        {
-            return PartialView("_StatisticsMembership");
+            return PartialView();
         }
     }
 }
