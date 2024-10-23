@@ -30,24 +30,20 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/PerezRA/source/repos/proSalud/proSalud/Views/Home/_Appointment.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxfQXBwb2ludG1lbnQuY3NodG1s
+[C:/Users/PerezRA/source/repos/proSalud/proSalud/Views/Home/_AppointmentsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxfQXBwb2ludG1lbnRzUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/PerezRA/source/repos/proSalud/proSalud/Views/Home/_Billing.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxfQmlsbGluZy5jc2h0bWw=
+[C:/Users/PerezRA/source/repos/proSalud/proSalud/Views/Home/_DoctorsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxfRG9jdG9yc1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/PerezRA/source/repos/proSalud/proSalud/Views/Home/_MedicalServices.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxfTWVkaWNhbFNlcnZpY2VzLmNzaHRtbA==
+[C:/Users/PerezRA/source/repos/proSalud/proSalud/Views/Home/_PatientsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxfUGF0aWVudHNQYXJ0aWFsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/PerezRA/source/repos/proSalud/proSalud/Views/Home/_PatientInformation.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxfUGF0aWVudEluZm9ybWF0aW9uLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/PerezRA/source/repos/proSalud/proSalud/Views/Home/_Statics.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxfU3RhdGljcy5jc2h0bWw=
+[C:/Users/PerezRA/source/repos/proSalud/proSalud/Views/Home/_SpecialtiesPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxfU3BlY2lhbHRpZXNQYXJ0aWFsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/PerezRA/source/repos/proSalud/proSalud/Views/Shared/Error.cshtml]

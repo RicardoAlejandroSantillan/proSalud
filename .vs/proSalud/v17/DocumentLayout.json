@@ -7,32 +7,24 @@
       "RelativeMoniker": "D:0:0:{01A70A78-7217-482E-98D1-8F7F6DE633DF}|proSalud\\proSalud.csproj|solutionrelative:prosalud\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{01A70A78-7217-482E-98D1-8F7F6DE633DF}|proSalud\\proSalud.csproj|c:\\users\\perezra\\source\\repos\\prosalud\\prosalud\\views\\home\\_patientspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{01A70A78-7217-482E-98D1-8F7F6DE633DF}|proSalud\\proSalud.csproj|solutionrelative:prosalud\\views\\home\\_patientspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01A70A78-7217-482E-98D1-8F7F6DE633DF}|proSalud\\proSalud.csproj|c:\\users\\perezra\\source\\repos\\prosalud\\prosalud\\views\\home\\_doctorspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{01A70A78-7217-482E-98D1-8F7F6DE633DF}|proSalud\\proSalud.csproj|solutionrelative:prosalud\\views\\home\\_doctorspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01A70A78-7217-482E-98D1-8F7F6DE633DF}|proSalud\\proSalud.csproj|c:\\users\\perezra\\source\\repos\\prosalud\\prosalud\\views\\home\\_specialtiespartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{01A70A78-7217-482E-98D1-8F7F6DE633DF}|proSalud\\proSalud.csproj|solutionrelative:prosalud\\views\\home\\_specialtiespartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01A70A78-7217-482E-98D1-8F7F6DE633DF}|proSalud\\proSalud.csproj|c:\\users\\perezra\\source\\repos\\prosalud\\prosalud\\views\\home\\_appointmentspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{01A70A78-7217-482E-98D1-8F7F6DE633DF}|proSalud\\proSalud.csproj|solutionrelative:prosalud\\views\\home\\_appointmentspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{01A70A78-7217-482E-98D1-8F7F6DE633DF}|proSalud\\proSalud.csproj|c:\\users\\perezra\\source\\repos\\prosalud\\prosalud\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{01A70A78-7217-482E-98D1-8F7F6DE633DF}|proSalud\\proSalud.csproj|solutionrelative:prosalud\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{01A70A78-7217-482E-98D1-8F7F6DE633DF}|proSalud\\proSalud.csproj|c:\\users\\perezra\\source\\repos\\prosalud\\prosalud\\wwwroot\\css\\custom.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{01A70A78-7217-482E-98D1-8F7F6DE633DF}|proSalud\\proSalud.csproj|solutionrelative:prosalud\\wwwroot\\css\\custom.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{01A70A78-7217-482E-98D1-8F7F6DE633DF}|proSalud\\proSalud.csproj|c:\\users\\perezra\\source\\repos\\prosalud\\prosalud\\views\\home\\_billing.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{01A70A78-7217-482E-98D1-8F7F6DE633DF}|proSalud\\proSalud.csproj|solutionrelative:prosalud\\views\\home\\_billing.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{01A70A78-7217-482E-98D1-8F7F6DE633DF}|proSalud\\proSalud.csproj|c:\\users\\perezra\\source\\repos\\prosalud\\prosalud\\views\\home\\_medicalservices.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{01A70A78-7217-482E-98D1-8F7F6DE633DF}|proSalud\\proSalud.csproj|solutionrelative:prosalud\\views\\home\\_medicalservices.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{01A70A78-7217-482E-98D1-8F7F6DE633DF}|proSalud\\proSalud.csproj|c:\\users\\perezra\\source\\repos\\prosalud\\prosalud\\views\\home\\_statics.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{01A70A78-7217-482E-98D1-8F7F6DE633DF}|proSalud\\proSalud.csproj|solutionrelative:prosalud\\views\\home\\_statics.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{01A70A78-7217-482E-98D1-8F7F6DE633DF}|proSalud\\proSalud.csproj|c:\\users\\perezra\\source\\repos\\prosalud\\prosalud\\views\\home\\_appointment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{01A70A78-7217-482E-98D1-8F7F6DE633DF}|proSalud\\proSalud.csproj|solutionrelative:prosalud\\views\\home\\_appointment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{01A70A78-7217-482E-98D1-8F7F6DE633DF}|proSalud\\proSalud.csproj|c:\\users\\perezra\\source\\repos\\prosalud\\prosalud\\views\\home\\_patientinformation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{01A70A78-7217-482E-98D1-8F7F6DE633DF}|proSalud\\proSalud.csproj|solutionrelative:prosalud\\views\\home\\_patientinformation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,7 +42,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\PerezRA\\source\\repos\\proSalud\\proSalud\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "proSalud\\Controllers\\HomeController.cs",
@@ -59,8 +51,7 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADYAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-22T16:12:07.691Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -70,7 +61,7 @@
               "RelativeDocumentMoniker": "proSalud\\Views\\Home\\Index.cshtml",
               "ToolTip": "C:\\Users\\PerezRA\\source\\repos\\proSalud\\proSalud\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "proSalud\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAkwAoAAABLAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-10-22T16:12:46.828Z",
               "IsPinned": true,
@@ -78,81 +69,54 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "custom.css",
-              "DocumentMoniker": "C:\\Users\\PerezRA\\source\\repos\\proSalud\\proSalud\\wwwroot\\css\\custom.css",
-              "RelativeDocumentMoniker": "proSalud\\wwwroot\\css\\custom.css",
-              "ToolTip": "C:\\Users\\PerezRA\\source\\repos\\proSalud\\proSalud\\wwwroot\\css\\custom.css",
-              "RelativeToolTip": "proSalud\\wwwroot\\css\\custom.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-10-22T18:04:40.936Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "_PatientInformation.cshtml",
-              "DocumentMoniker": "C:\\Users\\PerezRA\\source\\repos\\proSalud\\proSalud\\Views\\Home\\_PatientInformation.cshtml",
-              "RelativeDocumentMoniker": "proSalud\\Views\\Home\\_PatientInformation.cshtml",
-              "ToolTip": "C:\\Users\\PerezRA\\source\\repos\\proSalud\\proSalud\\Views\\Home\\_PatientInformation.cshtml",
-              "RelativeToolTip": "proSalud\\Views\\Home\\_PatientInformation.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "_SpecialtiesPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\PerezRA\\source\\repos\\proSalud\\proSalud\\Views\\Home\\_SpecialtiesPartial.cshtml",
+              "RelativeDocumentMoniker": "proSalud\\Views\\Home\\_SpecialtiesPartial.cshtml",
+              "ToolTip": "C:\\Users\\PerezRA\\source\\repos\\proSalud\\proSalud\\Views\\Home\\_SpecialtiesPartial.cshtml",
+              "RelativeToolTip": "proSalud\\Views\\Home\\_SpecialtiesPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-22T21:45:32.993Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "_Appointment.cshtml",
-              "DocumentMoniker": "C:\\Users\\PerezRA\\source\\repos\\proSalud\\proSalud\\Views\\Home\\_Appointment.cshtml",
-              "RelativeDocumentMoniker": "proSalud\\Views\\Home\\_Appointment.cshtml",
-              "ToolTip": "C:\\Users\\PerezRA\\source\\repos\\proSalud\\proSalud\\Views\\Home\\_Appointment.cshtml",
-              "RelativeToolTip": "proSalud\\Views\\Home\\_Appointment.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-22T21:57:55.51Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "_Statics.cshtml",
-              "DocumentMoniker": "C:\\Users\\PerezRA\\source\\repos\\proSalud\\proSalud\\Views\\Home\\_Statics.cshtml",
-              "RelativeDocumentMoniker": "proSalud\\Views\\Home\\_Statics.cshtml",
-              "ToolTip": "C:\\Users\\PerezRA\\source\\repos\\proSalud\\proSalud\\Views\\Home\\_Statics.cshtml",
-              "RelativeToolTip": "proSalud\\Views\\Home\\_Statics.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-22T21:32:56.276Z",
+              "WhenOpened": "2024-10-23T14:34:03.107Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "_MedicalServices.cshtml",
-              "DocumentMoniker": "C:\\Users\\PerezRA\\source\\repos\\proSalud\\proSalud\\Views\\Home\\_MedicalServices.cshtml",
-              "RelativeDocumentMoniker": "proSalud\\Views\\Home\\_MedicalServices.cshtml",
-              "ToolTip": "C:\\Users\\PerezRA\\source\\repos\\proSalud\\proSalud\\Views\\Home\\_MedicalServices.cshtml",
-              "RelativeToolTip": "proSalud\\Views\\Home\\_MedicalServices.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAATAAAAAAAAAA==",
+              "Title": "_AppointmentsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\PerezRA\\source\\repos\\proSalud\\proSalud\\Views\\Home\\_AppointmentsPartial.cshtml",
+              "RelativeDocumentMoniker": "proSalud\\Views\\Home\\_AppointmentsPartial.cshtml",
+              "ToolTip": "C:\\Users\\PerezRA\\source\\repos\\proSalud\\proSalud\\Views\\Home\\_AppointmentsPartial.cshtml",
+              "RelativeToolTip": "proSalud\\Views\\Home\\_AppointmentsPartial.cshtml",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAAEIAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-22T21:32:05.78Z",
+              "WhenOpened": "2024-10-23T14:31:12.039Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "_Billing.cshtml",
-              "DocumentMoniker": "C:\\Users\\PerezRA\\source\\repos\\proSalud\\proSalud\\Views\\Home\\_Billing.cshtml",
-              "RelativeDocumentMoniker": "proSalud\\Views\\Home\\_Billing.cshtml",
-              "ToolTip": "C:\\Users\\PerezRA\\source\\repos\\proSalud\\proSalud\\Views\\Home\\_Billing.cshtml",
-              "RelativeToolTip": "proSalud\\Views\\Home\\_Billing.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAKAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "_DoctorsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\PerezRA\\source\\repos\\proSalud\\proSalud\\Views\\Home\\_DoctorsPartial.cshtml",
+              "RelativeDocumentMoniker": "proSalud\\Views\\Home\\_DoctorsPartial.cshtml",
+              "ToolTip": "C:\\Users\\PerezRA\\source\\repos\\proSalud\\proSalud\\Views\\Home\\_DoctorsPartial.cshtml",
+              "RelativeToolTip": "proSalud\\Views\\Home\\_DoctorsPartial.cshtml",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAADEAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-22T21:31:43.904Z",
+              "WhenOpened": "2024-10-23T14:29:56.47Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_PatientsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\PerezRA\\source\\repos\\proSalud\\proSalud\\Views\\Home\\_PatientsPartial.cshtml",
+              "RelativeDocumentMoniker": "proSalud\\Views\\Home\\_PatientsPartial.cshtml",
+              "ToolTip": "C:\\Users\\PerezRA\\source\\repos\\proSalud\\proSalud\\Views\\Home\\_PatientsPartial.cshtml",
+              "RelativeToolTip": "proSalud\\Views\\Home\\_PatientsPartial.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-23T14:27:24.438Z",
               "EditorCaption": ""
             }
           ]

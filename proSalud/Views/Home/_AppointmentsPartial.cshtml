@@ -1,0 +1,68 @@
+﻿@*Citas
+Consultations
+Appointments
+Invoices
+Payments
+Cancellations*@
+
+
+<div>
+    <!-- CRUD Section for Appointments -->
+    <!-- Sección para CRUD de Citas -->
+    @Html.Partial("_AppointmentsList")
+
+    <label id="DateTime"></label>
+    <input type="date" id="DateTime" name="inpt" placeholder="Date Time" />
+
+    <label id="Status"></label>
+    <input type="text" id="Status" name="inpt" placeholder="Status" />
+
+
+    <!-- Consultation Section for each Appointment -->
+    <!-- Sección para Consultas dentro de cada cita -->
+    @Html.Partial("_Consultations")
+
+    <label id="Diagnosis"></label>
+    <input type="text" id="Diagnosis" name="inpt" placeholder="Diagnosis" />
+
+    <label id="Treatment"></label>
+    <input type="text" id="Treatment" name="inpt" placeholder="Treatment" />
+
+    <label id="ConsultationDate"></label>
+    <input type="date" id="ConsultationDate" name="inpt" placeholder="Consultation Date" />
+
+
+    <!-- Invoice Section for each Appointment -->
+    <!-- Sección para Facturas de cada cita -->
+    @Html.Partial("_Invoices")
+
+    <label id="Amount"></label>
+    <input type="text" id="Amount" name="inpt" placeholder="Amount" />
+
+    <label id="PaymentDate"></label>
+    <input type="date" id="PaymentDate" name="inpt" placeholder="Payment Date" />
+
+
+
+    <!-- Payment Section for each Invoice -->
+    <!-- Sección para Pagos asociados a las facturas -->
+    @Html.Partial("_Payments")
+
+    <label id="InvoiceAmount"></label>
+    <input type="text" id="InvoiceAmount" name="inpt" placeholder="Invoice Amount" />
+
+    <label id="InvoiceDate"></label>
+    <input type="date" id="InvoiceDate" name="inpt" placeholder="Invoice Date" />
+
+
+
+    <!-- Cancellation Section for each Appointment -->
+    <!-- Sección para Cancelaciones de las citas -->
+    @Html.Partial("_Cancellations")
+
+    <label id="Reason"></label>
+    <input type="text" id="Reason" name="inpt" placeholder="Reason" />
+
+    <label id="CancellationDate"></label>
+    <input type="date" id="CancellationDate" name="inpt" placeholder="Cancellation Date" />
+</div>

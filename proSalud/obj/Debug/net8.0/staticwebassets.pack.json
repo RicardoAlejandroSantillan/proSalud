@@ -5,10 +5,6 @@
       "PackagePath": "staticwebassets\\proSalud.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\PerezRA\\source\\repos\\proSalud\\proSalud\\wwwroot\\css\\custom.css",
-      "PackagePath": "staticwebassets\\css\\custom.css"
-    },
-    {
       "Id": "C:\\Users\\PerezRA\\source\\repos\\proSalud\\proSalud\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

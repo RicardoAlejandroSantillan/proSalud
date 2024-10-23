@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Zp8hIyXPO687Pvmi1ckhvCBemQjbPzo1+A3dMPTFux4=",
+  "Hash": "PH/9nna0F/ah+dxbmCxnOTu4KQFeTL0JaCMAOcNFSno=",
   "Source": "proSalud",
   "BasePath": "_content/proSalud",
   "Mode": "Default",
@@ -1193,25 +1193,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\PerezRA\\source\\repos\\proSalud\\proSalud\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\proSalud.bundle.scp.css"
-    },
-    {
-      "Identity": "C:\\Users\\PerezRA\\source\\repos\\proSalud\\proSalud\\wwwroot\\css\\custom.css",
-      "SourceId": "proSalud",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\PerezRA\\source\\repos\\proSalud\\proSalud\\wwwroot\\",
-      "BasePath": "_content/proSalud",
-      "RelativePath": "css/custom.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\custom.css"
     },
     {
       "Identity": "C:\\Users\\PerezRA\\source\\repos\\proSalud\\proSalud\\wwwroot\\css\\site.css",

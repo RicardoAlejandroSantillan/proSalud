@@ -1,0 +1,52 @@
+﻿@* Doctores
+Schedules
+Consultation Statistics *@
+
+<div>
+    <!-- Doctors CRUD Section -->
+    <!-- Sección para CRUD de Doctores -->
+    @Html.Partial("_DoctorsList")
+
+    <label for="firstnameDoctor">Patient first name</label>
+    <input type="text" id="firstnameDoctor" name="inpt" placeholder="First name Doctor...">
+
+    <label for="lastnameDoctor">Patient last name</label>
+    <input type="text" id="lastnameDoctor" name="inpt" placeholder="Last name Doctor...">
+
+    <label for="Specialty">Speciality</label>
+    <input type="text" id="Specialty" name="inpt" placeholder="Speciality...">
+
+    <label for="phone">Phone</label>
+    <input type="text" id="phone" name="inpt" placeholder="Phone...">
+
+    <label for="email">Email</label>
+    <input type="text" id="email" name="inpt" placeholder="Email...">
+
+
+
+    <!-- Hours section for Doctors -->
+    <!-- Sección para Horarios de los doctores -->
+    @Html.Partial("_Schedules")
+
+    <label for="date">Date</label>
+    <input type="text" id="date" name="date" placeholder="Day">
+
+    <label for="start">Start time</label>
+    <input type="time" id="start" name="start">
+
+    <label for="end">End time</label>
+    <input type="time" id="end" name="end">
+
+
+
+    <!-- Consultation Statistics section for Doctors-->
+    <!-- Sección para las estadísticas de consultas de cada doctor -->
+    @Html.Partial("_ConsultationStatistics")
+
+    <label for="totalConsultations">Total Consultations</label>
+    <input type="text" id="totalConsultations" name="totalConsultations" placeholder="Total Consultations...">
+
+    <label for="dateConsultations">Date</label>
+    <input type="text" id="dateConsultations" name="dateConsultations" placeholder="Date...">
+
+</div>

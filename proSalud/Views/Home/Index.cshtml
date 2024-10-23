@@ -2,37 +2,13 @@
     ViewData["Title"] = "Hospital";
 }
 
-<link rel="stylesheet" href="~/css/custom.css" />
-
 <div class="text-center">
     <h1 class="display-2 fw-normal">ProSalud</h1>
 
-    <button id="btnAppointments" class="buttonArea">Citas</button>
-    <button id="btnPatientInfo" class="buttonArea">Información del Paciente</button>
-    <button id="btnBilling" class="buttonArea">Facturación</button>
-    <button id="btnMedicalServices" class="buttonArea">Servicios Médicos</button>
-    <button id="btnStatisticsMembership" class="buttonArea">Estadísticas y Membresía</button>
+    <button id="btnPatients" class="buttonArea">Patients</button>
+    <button id="btnDoctors" class="buttonArea">Doctors</button>
+    <button id="btnAppointments" class="buttonArea">Appointments</button>
+    <button id="btnSpecialities" class="buttonArea">Specialities</button>
 
     <div id="content"></div>
-
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script>
-        $(document).ready(function () {
-            $("#btnAppointments").click(function () {
-                $("#content").load("/Home/Appointments");
-            });
-            $("#btnPatientInfo").click(function () {
-                $("#content").load("/Home/PatientInfo");
-            });
-            $("#btnBilling").click(function () {
-                $("#content").load("/Home/Billing");
-            });
-            $("#btnMedicalServices").click(function () {
-                $("#content").load("/Home/MedicalServices");
-            });
-            $("#btnStatisticsMembership").click(function () {
-                $("#content").load("/Home/StatisticsMembership");
-            });
-        });
-    </script>
 </div>
