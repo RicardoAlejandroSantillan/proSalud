@@ -5,31 +5,31 @@ VIP Membership *@
 <div>
     <!-- Section CRUD for Patients and the capture of new patient information -->
     <!-- Sección para CRUD de Pacientes y la captura de la informacion de un nuevo paciente -->
-    @Html.Partial("_PatientsList")
-    
+    <h2>Patients</h2>
+
+
     <label for="firstnamePatient">Patient first name</label>
     <input type="text" id="firstnamePatient" name="inpt" placeholder="First name patient...">
-    
+
     <label for="lastNamePatient">Patient Last Name</label>
     <input type="text" id="lastNamePatient" name="inpt" placeholder="Last name patient...">
-    
+
     <label for="birthDatePatient">Birth date</label>
     <input type="text" id="birthDatePatient" name="inpt" placeholder="Birth date patient...">
 
     <label for="phoneNumberPatient">Phone number</label>
     <input type="text" id="phoneNumberPatient" name="inpt" placeholder="Phone number patient...">
-    
+
     <label for="emailPatient">Email</label>
     <input type="text" id="emailPatient" name="inpt" placeholder="Email patient...">
-    
+
     <label for="adressPatient">Adress</label>
     <input type="text" id="adressPatient" name="inpt" placeholder="Adress patient...">
-    
+
 
 
     <!-- History Medical Section for a patient-->
     <!-- Sección para Medical History de un paciente -->
-@*     @Html.Partial("_MedicalHistory") *@
 
     <label for="medicalDescription">Description</label>
     <input type="text" id="medicalDescription" name="inpt" placeholder="Medical Description...">
@@ -38,7 +38,6 @@ VIP Membership *@
 
     <!-- VIP Membership Section for a patient-->
     <!-- Sección para VIP Membership de un paciente -->
-@*     @Html.Partial("_VIPMembership") *@
 
     <label for="vipMembership">VIP</label>
     <input type="checkbox" id="vipMembership" name="vipMembership">

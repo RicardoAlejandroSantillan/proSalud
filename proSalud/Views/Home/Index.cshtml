@@ -5,51 +5,32 @@
 <div class="text-center">
     <h1 class="display-2 fw-normal">ProSalud</h1>
 
-    <button id="btnPatients" class="buttonArea" onclick="clckSpecialities()">Specialities</button>
-    <button id="btnDoctors" class="buttonAppointments" onclick="clckAppointments()">Appointments</button>
-    <button id="btnAppointments" class="buttonDoctors" onclick="clckDoctors()">Doctors</button>
-    <button id="btnSpecialities" class="buttonPatients" onclick="clckPatients()">Patients</button>
+    <button id="btnSpecialities" class="btn" onclick="showContent('specialitiesContent')">Specialities</button>
+    <button id="btnAppointments" class="btn" onclick="showContent('appointmentsContent')">Appointments</button>
+    <button id="btnDoctors" class="btn" onclick="showContent('doctorsContent')">Doctors</button>
+    <button id="btnPatients" class="btn" onclick="showContent('patientsContent')">Patients</button>
 
+    <div id="content">
+        <div id="specialitiesContent" style="display:none;">
+            @Html.Partial("specialtiesP")
+        </div>
+        <div id="appointmentsContent" style="display:none;">
+            @Html.Partial("appointmentsP")
+        </div>
+        <div id="doctorsContent" style="display:none;">
+            @Html.Partial("doctorsP")
+        </div>
+        <div id="patientsContent" style="display:none;">
+            @Html.Partial("patientsP")
+        </div>
+    </div>
 
-    <div id="content"></div>
-
-    
-    @Html.Partial("appointmentsP")
-    @* <script>
-        function clckSpecialities() {
-            document.getElementById("content").innerHTML = @Html.Partial("testP");
-
+    <script>
+        function showContent(contentId) {// Ocultamos todos los divs dentro del contenedor "content"
+            document.querySelectorAll('#content > div').forEach(function(div) {
+                div.style.display = 'none';
+            });
+            document.getElementById(contentId).style.display = 'block'; // Mostramos el contenido correspondiente
         }
-
-        function clckAppointments() {
-        }
-
-        function clckDoctors() {
-        }
-
-        function clckPatients() {
-        }
-    </script> *@
-
-   @*  <script>
-        function clckSpecialities() {
-            document.getElementById("content").innerHTML = "<h2>Specialities</h2>";
-            // document.getElementById("content").innerHTML = <partial name="_SpecialitiesPartial" />;
-        }
-
-        function clckAppointments() {
-            document.getElementById("content").innerHTML = "<h2>Appointments</h2>";
-            document.getElementById("content").innerHTML = <partial name="_AppointmentsPartial" />;
-        }
-
-        function clckDoctors() {
-            document.getElementById("content").innerHTML = "<h2>Doctors</h2>";
-            document.getElementById("content").innerHTML = <partial name="_DoctorsPartial" />;
-        }
-
-        function clckPatients() {
-            document.getElementById("content").innerHTML = "<h2>Patients</h2>";
-            document.getElementById("content").innerHTML = <partial name="_PatientsPartial" />;
-        }
-    </script> *@
+    </script>
 </div>
