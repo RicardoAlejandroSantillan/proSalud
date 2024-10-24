@@ -1,70 +1,161 @@
-﻿<h2>Appointments</h2>
-
-@*Citas
+﻿@*Citas
 Consultations
 Appointments
 Invoices
 Payments
 Cancellations*@
 
+@* Appointments *@
 
-<div>
-    <!-- CRUD Section for Appointments -->
-    <!-- Sección para CRUD de Citas -->
-    @*   @Html.Partial("_AppointmentsList") *@
+<div class="area-container">
+    <h2 class="subtitle">Appointments</h2>
 
-    <label id="DateTime"></label>
-    <input type="date" id="DateTime" name="inpt" placeholder="Date Time" />
+    <!-- Add Button Section -->
+    <div class="button-container">
+        <button data-modal="appointmentModal" class="btnAddRegister">
+            Add New Appointment
+        </button>
+    </div>
 
-    <label id="Status"></label>
-    <input type="text" id="Status" name="inpt" placeholder="Status" />
+    <!-- Appointments List Section -->
+    <div class="appointments-list">
+        <table class="appointments-table">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Patient</th>
+                    <th>Doctor</th>
+                    <th>Date & Time</th>
+                    <th>Status</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody id="appointmentsTableBody">
+                <!-- Data will be populated dynamically -->
+            </tbody>
+        </table>
+    </div>
 
+    <!-- Modal for Add/Edit Appointment -->
+    <div id="appointmentModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
 
-    <!-- Consultation Section for each Appointment -->
-    <!-- Sección para Consultas dentro de cada cita -->
-    @*     @Html.Partial("_Consultations") *@
+            <div class="modal-header">
+                <h2 id="modalTitle">Add New Appointment</h2>
+            </div>
 
-    <label id="Diagnosis"></label>
-    <input type="text" id="Diagnosis" name="inpt" placeholder="Diagnosis" />
+            <div class="modal-body">
+                <form id="appointmentForm">
+                    <input type="hidden" id="appointmentId" name="appointmentId" />
 
-    <label id="Treatment"></label>
-    <input type="text" id="Treatment" name="inpt" placeholder="Treatment" />
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="patient">Patient</label>
+                            <select id="patient" name="patient" class="form-control" required>
+                                <option value="">Select Patient</option>
+                            </select>
+                        </div>
 
-    <label id="ConsultationDate"></label>
-    <input type="date" id="ConsultationDate" name="inpt" placeholder="Consultation Date" />
+                        <div class="form-group">
+                            <label for="doctor">Doctor</label>
+                            <select id="doctor" name="doctor" class="form-control" required>
+                                <option value="">Select Doctor</option>
+                            </select>
+                        </div>
+                    </div>
 
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="appointmentDate">Date</label>
+                            <input type="date"
+                                   id="appointmentDate"
+                                   name="appointmentDate"
+                                   class="form-control"
+                                   required />
+                        </div>
 
-    <!-- Invoice Section for each Appointment -->
-    <!-- Sección para Facturas de cada cita -->
-    @*     @Html.Partial("_Invoices") *@
+                        <div class="form-group">
+                            <label for="appointmentTime">Time</label>
+                            <input type="time"
+                                   id="appointmentTime"
+                                   name="appointmentTime"
+                                   class="form-control"
+                                   required />
+                        </div>
+                    </div>
 
-    <label id="Amount"></label>
-    <input type="text" id="Amount" name="inpt" placeholder="Amount" />
+                    <div class="form-group">
+                        <label for="status">Status</label>
+                        <select id="status" name="status" class="form-control" required>
+                            <option value="">Select Status</option>
+                            <option value="Scheduled">Scheduled</option>
+                            <option value="Confirmed">Confirmed</option>
+                            <option value="InProgress">In Progress</option>
+                            <option value="Completed">Completed</option>
+                            <option value="Cancelled">Cancelled</option>
+                        </select>
+                    </div>
 
-    <label id="PaymentDate"></label>
-    <input type="date" id="PaymentDate" name="inpt" placeholder="Payment Date" />
+                    <div class="form-group">
+                        <label for="notes">Notes</label>
+                        <textarea id="notes"
+                                  name="notes"
+                                  class="form-control"
+                                  rows="3"
+                                  placeholder="Enter any additional notes"></textarea>
+                    </div>
 
+                    <div class="details-section">
+                        <h3>Appointment Details</h3>
 
+                        <div class="form-group">
+                            <label for="diagnosis">Diagnosis</label>
+                            <input type="text"
+                                   id="diagnosis"
+                                   name="diagnosis"
+                                   class="form-control"
+                                   placeholder="Enter diagnosis" />
+                        </div>
 
-    <!-- Payment Section for each Invoice -->
-    <!-- Sección para Pagos asociados a las facturas -->
-    @*     @Html.Partial("_Payments") *@
+                        <div class="form-group">
+                            <label for="treatment">Treatment</label>
+                            <textarea id="treatment"
+                                      name="treatment"
+                                      class="form-control"
+                                      rows="2"
+                                      placeholder="Enter treatment details"></textarea>
+                        </div>
 
-    <label id="InvoiceAmount"></label>
-    <input type="text" id="InvoiceAmount" name="inpt" placeholder="Invoice Amount" />
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="amount">Amount</label>
+                                <input type="number"
+                                       id="amount"
+                                       name="amount"
+                                       class="form-control"
+                                       placeholder="Enter amount"
+                                       step="0.01" />
+                            </div>
 
-    <label id="InvoiceDate"></label>
-    <input type="date" id="InvoiceDate" name="inpt" placeholder="Invoice Date" />
+                            <div class="form-group">
+                                <label for="paymentStatus">Payment Status</label>
+                                <select id="paymentStatus" name="paymentStatus" class="form-control">
+                                    <option value="">Select Status</option>
+                                    <option value="Pending">Pending</option>
+                                    <option value="Paid">Paid</option>
+                                    <option value="Partial">Partial</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
 
-
-
-    <!-- Cancellation Section for each Appointment -->
-    <!-- Sección para Cancelaciones de las citas -->
-    @*     @Html.Partial("_Cancellations") *@
-
-    <label id="Reason"></label>
-    <input type="text" id="Reason" name="inpt" placeholder="Reason" />
-
-    <label id="CancellationDate"></label>
-    <input type="date" id="CancellationDate" name="inpt" placeholder="Cancellation Date" />
+                    <div class="form-actions">
+                        <button type="button" class="btn-cancel" data-dismiss="modal">Cancel</button>
+                        <button type="submit" class="btn-save">Save Appointment</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
 </div>

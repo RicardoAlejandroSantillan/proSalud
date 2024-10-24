@@ -2,12 +2,13 @@
 Medical History
 VIP Membership *@
 
+@*<h2 class="subtitle">Patients</h2>
+
 <div>
+    <button id="btnAddPatient" class="btnAddRegister">Add New Patient</button>
+
     <!-- Section CRUD for Patients and the capture of new patient information -->
     <!-- Sección para CRUD de Pacientes y la captura de la informacion de un nuevo paciente -->
-    <h2>Patients</h2>
-
-
     <label for="firstnamePatient">Patient first name</label>
     <input type="text" id="firstnamePatient" name="inpt" placeholder="First name patient...">
 
@@ -47,4 +48,168 @@ VIP Membership *@
 
     <label for="expirationDateVIP"></label>
     <input type="date" id="ExpirationDateVIP" name="inpt" placeholder="Expiration Date..." />
+</div>*@
+
+
+<div class="area-container">
+    <h2 class="subtitle">Patients</h2>
+
+    <!-- Add Button Section -->
+    <div class="button-container">
+        <button data-modal="patientModal" class="btnAddRegister">
+            Add New Patient
+        </button>
+    </div>
+
+    <!-- Patients List Section -->
+    <div class="patients-list">
+        <table class="appointments-table">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Birth Date</th>
+                    <th>Phone</th>
+                    <th>Email</th>
+                    <th>VIP Status</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody id="patientsTableBody">
+                <!-- Data will be populated dynamically -->
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Modal for Add/Edit Patient -->
+    <div id="patientModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+
+            <div class="modal-header">
+                <h2 id="modalTitle">Add New Patient</h2>
+            </div>
+
+            <div class="modal-body">
+                <form id="patientForm">
+                    <input type="hidden" id="patientId" name="patientId" />
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="firstnamePatient">First Name</label>
+                            <input type="text"
+                                   id="firstnamePatient"
+                                   name="firstnamePatient"
+                                   class="form-control"
+                                   placeholder="First name patient..."
+                                   required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="lastNamePatient">Last Name</label>
+                            <input type="text"
+                                   id="lastNamePatient"
+                                   name="lastNamePatient"
+                                   class="form-control"
+                                   placeholder="Last name patient..."
+                                   required>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="birthDatePatient">Birth Date</label>
+                            <input type="date"
+                                   id="birthDatePatient"
+                                   name="birthDatePatient"
+                                   class="form-control"
+                                   required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="phoneNumberPatient">Phone Number</label>
+                            <input type="tel"
+                                   id="phoneNumberPatient"
+                                   name="phoneNumberPatient"
+                                   class="form-control"
+                                   placeholder="Phone number patient..."
+                                   required>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="emailPatient">Email</label>
+                            <input type="email"
+                                   id="emailPatient"
+                                   name="emailPatient"
+                                   class="form-control"
+                                   placeholder="Email patient..."
+                                   required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="adressPatient">Address</label>
+                            <input type="text"
+                                   id="adressPatient"
+                                   name="adressPatient"
+                                   class="form-control"
+                                   placeholder="Address patient..."
+                                   required>
+                        </div>
+                    </div>
+
+                    <div class="details-section">
+                        <h3>Medical History</h3>
+                        <div class="form-group">
+                            <label for="medicalDescription">Medical Description</label>
+                            <textarea id="medicalDescription"
+                                      name="medicalDescription"
+                                      class="form-control"
+                                      rows="3"
+                                      placeholder="Medical Description..."></textarea>
+                        </div>
+                    </div>
+
+                    <div class="details-section">
+                        <h3>VIP Membership</h3>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label class="checkbox-container">
+                                    <input type="checkbox"
+                                           id="vipMembership"
+                                           name="vipMembership">
+                                    <span class="checkbox-label">VIP Status</span>
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="ActivationDateVIP">Activation Date</label>
+                                <input type="date"
+                                       id="ActivationDateVIP"
+                                       name="ActivationDateVIP"
+                                       class="form-control">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="ExpirationDateVIP">Expiration Date</label>
+                                <input type="date"
+                                       id="ExpirationDateVIP"
+                                       name="ExpirationDateVIP"
+                                       class="form-control">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-actions">
+                        <button type="button" class="btn-cancel" data-dismiss="modal">Cancel</button>
+                        <button type="submit" class="btn-save">Save Patient</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
 </div>

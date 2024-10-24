@@ -2,50 +2,171 @@
 Schedules
 Consultation Statistics *@
 
-<div>
-    <!-- Doctors CRUD Section -->
-    <!-- Sección para CRUD de Doctores -->
-    <h2>Doctors</h2>
+@*Doctors*@
 
-    <label for="firstnameDoctor">Patient first name</label>
-    <input type="text" id="firstnameDoctor" name="inpt" placeholder="First name Doctor...">
+<div class="area-container">
+    <h2 class="subtitle">Doctors</h2>
 
-    <label for="lastnameDoctor">Patient last name</label>
-    <input type="text" id="lastnameDoctor" name="inpt" placeholder="Last name Doctor...">
+    <!-- Add Button Section -->
+    <div class="button-container">
+        <button data-modal="doctorModal" class="btnAddRegister">
+            Add New Doctor
+        </button>
+    </div>
 
-    <label for="Specialty">Speciality</label>
-    <input type="text" id="Specialty" name="inpt" placeholder="Speciality...">
+    <!-- Doctors List Section -->
+    <div class="doctors-list">
+        <table class="appointments-table">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Specialty</th>
+                    <th>Phone</th>
+                    <th>Email</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody id="doctorsTableBody">
+                <!-- Data will be populated dynamically -->
+            </tbody>
+        </table>
+    </div>
 
-    <label for="phone">Phone</label>
-    <input type="text" id="phone" name="inpt" placeholder="Phone...">
+    <!-- Modal for Add/Edit Doctor -->
+    <div id="doctorModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
 
-    <label for="email">Email</label>
-    <input type="text" id="email" name="inpt" placeholder="Email...">
+            <div class="modal-header">
+                <h2 id="modalTitle">Add New Doctor</h2>
+            </div>
 
+            <div class="modal-body">
+                <form id="doctorForm">
+                    <input type="hidden" id="doctorId" name="doctorId" />
 
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="firstnameDoctor">First Name</label>
+                            <input type="text"
+                                   id="firstnameDoctor"
+                                   name="firstnameDoctor"
+                                   class="form-control"
+                                   placeholder="First name Doctor..."
+                                   required>
+                        </div>
 
-    <!-- Hours section for Doctors -->
-    <!-- Sección para Horarios de los doctores -->
+                        <div class="form-group">
+                            <label for="lastnameDoctor">Last Name</label>
+                            <input type="text"
+                                   id="lastnameDoctor"
+                                   name="lastnameDoctor"
+                                   class="form-control"
+                                   placeholder="Last name Doctor..."
+                                   required>
+                        </div>
+                    </div>
 
-    <label for="date">Date</label>
-    <input type="text" id="date" name="date" placeholder="Day">
+                    <div class="form-group">
+                        <label for="Specialty">Specialty</label>
+                        <input type="text"
+                               id="Specialty"
+                               name="Specialty"
+                               class="form-control"
+                               placeholder="Specialty..."
+                               required>
+                    </div>
 
-    <label for="start">Start time</label>
-    <input type="time" id="start" name="start">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="phone">Phone</label>
+                            <input type="tel"
+                                   id="phone"
+                                   name="phone"
+                                   class="form-control"
+                                   placeholder="Phone..."
+                                   required>
+                        </div>
 
-    <label for="end">End time</label>
-    <input type="time" id="end" name="end">
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email"
+                                   id="email"
+                                   name="email"
+                                   class="form-control"
+                                   placeholder="Email..."
+                                   required>
+                        </div>
+                    </div>
 
+                    <div class="details-section">
+                        <h3>Schedule Details</h3>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="date">Working Days</label>
+                                <select id="date" name="date" class="form-control" multiple>
+                                    <option value="Monday">Monday</option>
+                                    <option value="Tuesday">Tuesday</option>
+                                    <option value="Wednesday">Wednesday</option>
+                                    <option value="Thursday">Thursday</option>
+                                    <option value="Friday">Friday</option>
+                                    <option value="Saturday">Saturday</option>
+                                    <option value="Sunday">Sunday</option>
+                                </select>
+                            </div>
+                        </div>
 
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="start">Start Time</label>
+                                <input type="time"
+                                       id="start"
+                                       name="start"
+                                       class="form-control">
+                            </div>
 
-    <!-- Consultation Statistics section for Doctors-->
-    <!-- Sección para las estadísticas de consultas de cada doctor -->
-    @*     @Html.Partial("_ConsultationStatistics") *@
+                            <div class="form-group">
+                                <label for="end">End Time</label>
+                                <input type="time"
+                                       id="end"
+                                       name="end"
+                                       class="form-control">
+                            </div>
+                        </div>
+                    </div>
 
-    <label for="totalConsultations">Total Consultations</label>
-    <input type="text" id="totalConsultations" name="totalConsultations" placeholder="Total Consultations...">
+                    <div class="details-section">
+                        <h3>Statistics</h3>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="totalConsultations">Total Consultations</label>
+                                <input type="number"
+                                       id="totalConsultations"
+                                       name="totalConsultations"
+                                       class="form-control"
+                                       placeholder="Total Consultations..."
+                                       readonly>
+                            </div>
 
-    <label for="dateConsultations">Date</label>
-    <input type="text" id="dateConsultations" name="dateConsultations" placeholder="Date...">
+                            <div class="form-group">
+                                <label for="dateConsultations">Last Consultation</label>
+                                <input type="date"
+                                       id="dateConsultations"
+                                       name="dateConsultations"
+                                       class="form-control"
+                                       readonly>
+                            </div>
+                        </div>
+                    </div>
 
+                    <div class="form-actions">
+                        <button type="button" class="btn-cancel" data-dismiss="modal">Cancel</button>
+                        <button type="submit" class="btn-save">Save Doctor</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
 </div>

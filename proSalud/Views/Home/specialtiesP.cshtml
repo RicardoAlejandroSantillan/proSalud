@@ -1,11 +1,130 @@
 ﻿@* Specialties *@
 
-<div>
-    <h2>Specialties</h2>
-    <!-- Section for CRUD of Specialties -->
-    <!-- Sección para CRUD de Especialidades -->
+<div class="area-container">
+    <h2 class="subtitle">Specialties</h2>
 
-    <!-- Speciality name-->
-    <label name="specialtyName">Speciality Name</label>
-    <input type="text" id="specialtyName" name="inpt" placeholder="Especialidad">
+    <!-- Add Button Section -->
+    <div class="button-container">
+        <button data-modal="specialtyModal" class="btnAddRegister">
+            Add New Specialty
+        </button>
+    </div>
+
+    <!-- Specialties List Section -->
+    <div class="specialties-list">
+        <table class="appointments-table">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Specialty Name</th>
+                    <th>Description</th>
+                    <th>Associated Doctors</th>
+                    <th>Status</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody id="specialtiesTableBody">
+                <!-- Data will be populated dynamically -->
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Modal for Add/Edit Specialty -->
+    <div id="specialtyModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+
+            <div class="modal-header">
+                <h2 id="modalTitle">Add New Specialty</h2>
+            </div>
+
+            <div class="modal-body">
+                <form id="specialtyForm">
+                    <input type="hidden" id="specialtyId" name="specialtyId" />
+
+                    <div class="form-group">
+                        <label for="specialtyName">Specialty Name</label>
+                        <input type="text"
+                               id="specialtyName"
+                               name="specialtyName"
+                               class="form-control"
+                               placeholder="Enter specialty name"
+                               required />
+                        <span class="error-message" id="specialtyNameError"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="specialtyDescription">Description</label>
+                        <textarea id="specialtyDescription"
+                                  name="specialtyDescription"
+                                  class="form-control"
+                                  placeholder="Enter specialty description"
+                                  rows="3"></textarea>
+                    </div>
+
+                    <div class="details-section">
+                        <h3>Additional Details</h3>
+
+                        <div class="form-group">
+                            <label for="consultationTime">Default Consultation Time (minutes)</label>
+                            <select id="consultationTime" name="consultationTime" class="form-control">
+                                <option value="15">15 minutes</option>
+                                <option value="30">30 minutes</option>
+                                <option value="45">45 minutes</option>
+                                <option value="60">1 hour</option>
+                                <option value="90">1.5 hours</option>
+                                <option value="120">2 hours</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="basePrice">Base Consultation Price</label>
+                            <input type="number"
+                                   id="basePrice"
+                                   name="basePrice"
+                                   class="form-control"
+                                   placeholder="Enter base price"
+                                   step="0.01"
+                                   min="0" />
+                        </div>
+
+                        <div class="form-group">
+                            <label class="checkbox-container">
+                                <input type="checkbox"
+                                       id="requiresReferral"
+                                       name="requiresReferral" />
+                                <span class="checkbox-label">Requires Referral</span>
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="details-section">
+                        <h3>Equipment & Resources</h3>
+                        <div class="form-group">
+                            <label for="requiredEquipment">Required Equipment</label>
+                            <textarea id="requiredEquipment"
+                                      name="requiredEquipment"
+                                      class="form-control"
+                                      placeholder="List required equipment and resources..."
+                                      rows="2"></textarea>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="specialtyStatus">Status</label>
+                        <select id="specialtyStatus" name="specialtyStatus" class="form-control">
+                            <option value="Active">Active</option>
+                            <option value="Inactive">Inactive</option>
+                            <option value="Pending">Pending</option>
+                        </select>
+                    </div>
+
+                    <div class="form-actions">
+                        <button type="button" class="btn-cancel" data-dismiss="modal">Cancel</button>
+                        <button type="submit" class="btn-save">Save Specialty</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
 </div>

@@ -24,13 +24,118 @@
             @Html.Partial("patientsP")
         </div>
     </div>
-
-    <script>
-        function showContent(contentId) {// Ocultamos todos los divs dentro del contenedor "content"
-            document.querySelectorAll('#content > div').forEach(function(div) {
-                div.style.display = 'none';
-            });
-            document.getElementById(contentId).style.display = 'block'; // Mostramos el contenido correspondiente
-        }
-    </script>
 </div>
+
+<!-- Modal Manager Class -->
+<script>
+class ModalManager {
+    constructor() {
+        this.modals = new Map();
+        this.init();
+    }
+
+    init() {
+        // Initialize all modals on the page
+        document.querySelectorAll('.modal').forEach(modal => {
+            const modalId = modal.id;
+            const btnOpen = document.querySelector(`[data-modal="${modalId}"]`);
+            const btnClose = modal.querySelector('.close');
+            
+            this.modals.set(modalId, modal);
+            
+            if (btnOpen) {
+                btnOpen.addEventListener('click', () => this.openModal(modalId));
+            }
+            
+            if (btnClose) {
+                btnClose.addEventListener('click', () => this.closeModal(modalId));
+            }
+            
+            // Close modal when clicking outside
+            modal.addEventListener('click', (event) => {
+                if (event.target === modal) {
+                    this.closeModal(modalId);
+                }
+            });
+        });
+
+        // Add keyboard event listener for ESC key
+        document.addEventListener('keydown', (event) => {
+            if (event.key === 'Escape') {
+                this.closeAllModals();
+            }
+        });
+    }
+
+    openModal(modalId) {
+        const modal = this.modals.get(modalId);
+        if (modal) {
+            modal.style.display = 'block';
+            // Add active class for animations
+            setTimeout(() => {
+                modal.classList.add('active');
+            }, 10);
+            // Prevent body scrolling when modal is open
+            document.body.style.overflow = 'hidden';
+        }
+    }
+
+    closeModal(modalId) {
+        const modal = this.modals.get(modalId);
+        if (modal) {
+            modal.classList.remove('active');
+            // Wait for animation to complete before hiding
+            setTimeout(() => {
+                modal.style.display = 'none';
+            }, 300);
+            // Restore body scrolling
+            document.body.style.overflow = 'auto';
+        }
+    }
+
+    closeAllModals() {
+        this.modals.forEach((modal, modalId) => {
+            this.closeModal(modalId);
+        });
+    }
+}
+
+// Function to show/hide content sections
+function showContent(contentId) {
+    // First, close any open modals
+    if (window.modalManager) {
+        window.modalManager.closeAllModals();
+    }
+
+    // Hide all content divs
+    document.querySelectorAll('#content > div').forEach(function(div) {
+        div.style.display = 'none';
+    });
+
+    // Show the selected content
+    const selectedContent = document.getElementById(contentId);
+    if (selectedContent) {
+        selectedContent.style.display = 'block';
+        
+        // Reinitialize the modal manager for the new content
+        setTimeout(() => {
+            window.modalManager = new ModalManager();
+        }, 100);
+    }
+}
+
+// Initialize the modal manager when the document is ready
+document.addEventListener('DOMContentLoaded', function() {
+    window.modalManager = new ModalManager();
+});
+
+// Add error handling for modal operations
+window.addEventListener('error', function(event) {
+    console.error('Modal error:', event.error);
+    // Attempt to recover from errors by reinitializing the modal manager
+    if (window.modalManager) {
+        window.modalManager.closeAllModals();
+        window.modalManager = new ModalManager();
+    }
+});
+</script>
